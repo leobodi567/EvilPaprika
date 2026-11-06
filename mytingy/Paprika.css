@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    touch-action: manipulation;
+}
+
+#Button{
+    align-self: center;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 230, 88);
+    clip-path: circle(50%);
+    border: rgb(6, 70, 22) 5px solid;
+    border-radius: 50%;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    align-items: center;
+    touch-action: manipulation;
+}
+#Number{
+    font-size: 80px;
+    justify-self: center;
+}
+#container{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 375px;
+}
+#Form{
+    margin: 20px;
+
+}
+#Button1{
+    margin-left: 65px;
+}
+#label{
+    margin-left: 65px;
+}
